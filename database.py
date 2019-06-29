@@ -1,5 +1,5 @@
 from psycopg2 import pool
-import constants
+from utility import constants
 
 
 class Database:

@@ -1,0 +1,5 @@
+venv/
+utility/db_login.py
+utility/twitter.py
+__pycache__/
+.idea/

@@ -1,4 +1,4 @@
-from database import ConnectionFromPool, Database
+from classes.database import ConnectionFromPool, Database
 from utility import lists
 from utility import db_login as db
 

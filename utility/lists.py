@@ -3,3 +3,5 @@ NFL_TEAMS = ['cardinals', 'falcons', 'ravens', 'bills', 'panthers', 'bears', 'be
              'chiefs', 'chargers', 'rams', 'dolphins', 'vikings', 'patriots', 'saints', 'giants',
              'jets', 'raiders', 'eagles', 'steelers', 'niners', 'seahawks', 'buccaneers', 'titans',
              'redskins']
+
+TEST_TEAMS = ['bengals']

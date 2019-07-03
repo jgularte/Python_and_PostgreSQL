@@ -2,6 +2,7 @@ from psycopg2 import pool
 from utility import constants
 
 
+# todo: currently each class has its own file. Look into splitting this into two files
 class Database:
     __connection_pool = None
 

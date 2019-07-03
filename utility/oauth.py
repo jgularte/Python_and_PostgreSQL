@@ -20,9 +20,13 @@ def get_request_token():
 
 def get_oauth_verifier(request_token):
     print("Go to the following website in your browser:")
-    print("{0}?oauth_token={1}".format(twitter.AUTHORIZATION_URL, request_token['oauth_token']))
+    print(get_oauth_verifier_url(request_token))
 
     return input("what is the PIN? ")
+
+
+def get_oauth_verifier_url(request_token):
+    return "{0}?oauth_token={1}".format(twitter.AUTHORIZATION_URL, request_token['oauth_token'])
 
 
 def get_access_token(request_token, oauth_verifier):
